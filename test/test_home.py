@@ -14,3 +14,4 @@ class TestHome():
         d = self.driver.window_handles
         print(f"d:::{d}")
         self.driver.switch_to.window(d[1])
+        ":cvar"
