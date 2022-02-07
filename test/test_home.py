@@ -12,6 +12,4 @@ class TestHome():
     def test_home(self):
         self.driver.find_element(By.CSS_SELECTOR, '#js_openapiDocHref').click()
         d = self.driver.window_handles
-        print(f"d:::{d}")
         self.driver.switch_to.window(d[1])
-        ":cvar"
